@@ -54,43 +54,12 @@ h2 {
     background: #01303f;
     color: #02a9f7;
 }
-/* BANNERS */
-
-.banner {
-    height: 500px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: center;
-}
-
-.banner-auricular {
-    background-image: url(../media/img/banner-auriculares.jpeg);
-}
-
-.banner-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.button {
-    background: #464646;
-    border: 2px solid white;
-    margin: 10px;
-    padding: 5px;
-}
-
-.banner-parlante {
-    background-image: url(../media/img/banner-parlantes.png);
-}
 
 /* ARTICLES */
+
+.card-img-top {
+    width: 100px;
+}
 
 /* .top-articles {
     margin: 20px 0;
