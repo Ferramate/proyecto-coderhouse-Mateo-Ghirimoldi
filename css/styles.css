@@ -12,6 +12,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background: #01303f;
     font-weight: 400;
+    color: #02a9f7;
 }
 
 a {
@@ -24,10 +25,27 @@ h2 {
     text-align: center;
 }
 
+
 /* ESTILOS PAGINA INDEX */
 /* NAVIGATION */
-
 .navbar {
+    background: #01303f;
+    color: #02a9f7;
+}
+
+.navbar .container-fluid .navbar-brand img {
+    width: 80px;
+}
+
+.navbar .container-fluid a{
+    color: #02a9f7;
+}
+
+.navbar-nav .nav-item a {
+    color: #02a9f7;
+}
+
+/* .navbar {
     background: #02577a;
     font-weight: 700;
     display: flex;
@@ -46,7 +64,7 @@ h2 {
 
 .nav-brand li a img {
     width: 80px;
-}
+} */
 
 
 /* MAIN CONTENT */
