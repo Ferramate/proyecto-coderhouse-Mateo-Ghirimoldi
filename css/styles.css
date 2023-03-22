@@ -45,27 +45,6 @@ h2 {
     color: #02a9f7;
 }
 
-/* .navbar {
-    background: #02577a;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: sticky;
-    width: 100%;
-}
-
-.nav-section {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 50px;
-}
-
-.nav-brand li a img {
-    width: 80px;
-} */
-
 
 /* MAIN CONTENT */
 .container {
@@ -73,33 +52,18 @@ h2 {
     color: #02a9f7;
 }
 
+
 /* ARTICLES */
 
 .card-img-top {
     width: 100px;
 }
 
-/* .top-articles {
-    margin: 20px 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.top-articles__article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.top-articles__article img {
-    width: 400px;
-} */
-
 /* FOOTER */
 
 .footer-container {
     background: #001218;
+    color: #02a9f7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,22 +81,43 @@ h2 {
     width: 100px;
 }
 
-@media (max-width:768px){
-    .navbar {
-        display: none;
+
+
+/* ESTILOS PAGINA CUENTA */
+/* FORMULARIO DE LOGIN */
+
+/* .container-form form{
+    background: #01303f;
+    color: #02a9f7;
+}
+
+.container-form h1{
+    background: #01303f;
+    color: #02a9f7;
+}
+
+.container-form form .mb3 input,
+.container-form form .mb3 label {
+    background: #01303f;
+    color: #02a9f7;
+} */
+
+
+
+
+/* RESPONSIVE-PAGE */
+
+@media (max-width: 1400px) {
+    
+    .footer-container {
+        flex-direction: column;
+        gap: 0;
     }
 
-    /* BANNER */
-
-    .banner {
-        margin-bottom: 100px;
+    .footer-section-icons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
     }
-
-    /* ARTICLES */
-
-    .top-articles {
-        margin: 20px 0;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
+    
 }
