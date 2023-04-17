@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-container {
+    margin-top:  20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .footer-section-logo {
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            width: 30px;
+        }
+        img {
+            width: 30px;
+        }
+    }
+}
